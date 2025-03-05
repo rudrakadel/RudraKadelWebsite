@@ -13,7 +13,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={healthai}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/rudrakadel/AI-Powered_Health_Assistant_TECHSAKSHAM.git"
           h3="Healix"
           p="AI Health Assistant Chatbot"
         />
