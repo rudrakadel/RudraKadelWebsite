@@ -25,8 +25,8 @@ function Projects() {
         />
         <ProjectCard
           src={honeypot}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="PhantomHive"
+          link="https://github.com/rudrakadel/HoneyPie.git"
+          h3="HoneyPie"
           p="Building a Honeypot"
         />
         <ProjectCard
