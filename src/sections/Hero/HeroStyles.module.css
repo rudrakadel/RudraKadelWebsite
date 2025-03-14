@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -68,7 +71,9 @@
 }
 
 .description {
-  max-width: 24ch;
+  /* font-family: 'Inter', sans-serif; */
+  max-width: 40ch;
+  /* font-weight: bold; */
 }
 
 .info {
@@ -84,8 +89,8 @@
     justify-content: space-evenly;
 
     .hero {
-      max-width: 350px;
-      width: 350px;
+      max-width: 700px;
+      width: 700px;
     }
   }
 }
@@ -93,8 +98,8 @@
 @media (width >= 1400px) {
   .container {
     .hero {
-      max-width: 400px;
-      width: 400px;
+      max-width: 700px;
+      width: 700px;
     }
   }
 }
@@ -131,4 +136,50 @@
 .socials img {
   width: 30px; /* Set uniform size */
   height: 30px;
+}
+
+.name {
+  font-size: 2.5rem; /* Increase name size */
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.8rem; /* Increase title size */
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1.2rem; /* Increase paragraph text size */
+  line-height: 1.6;
+}
+
+.resumeButton {
+  font-size: 1.2rem;  /* Increase text size */
+  padding: 12px 24px; /* Increase padding for a larger button */
+  border-radius: 8px; /* Slightly rounded corners for a modern look */
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.resumeButton:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+.socials img {
+  width: 50px;  /* Increase size */
+  height: 50px; /* Increase size */
+}
+
+.hero {
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.hero:hover {
+  transform: scale(1.1); /* Increase size on hover */
+}
+
+body {
+  cursor: url('/assets/custom-cursor.png'), auto;
 }

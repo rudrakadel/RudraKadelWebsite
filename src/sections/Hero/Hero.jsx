@@ -49,7 +49,7 @@ function Hero() {
           </a>
         </div>
         <p className={`${styles.description} ${styles.centerText}`}>
-                Breaking firewalls (ethically, of course) and keeping the digital world safe—one security policy at a time! Passionate about cybersecurity and making hackers have a bad day.
+        Cybersecurity strategist with expertise in governance, risk management, and compliance. I specialize in designing and implementing security frameworks that align with business objectives, ensuring resilience against evolving cyber threats. With a strong foundation in ethical hacking, threat intelligence, and security automation, I focus on proactive risk mitigation and regulatory compliance. Passionate about continuous learning and staying ahead of emerging cybersecurity trends, I actively explore new technologies, threat landscapes, and security methodologies to enhance enterprise security. Committed to strengthening cybersecurity strategies through policy development, incident response, and threat analysis.  
         </p>
         <a href={CV} download>
           <button className={styles.resumeButton}>Resume</button>

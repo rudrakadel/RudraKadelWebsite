@@ -20,8 +20,8 @@ function Projects() {
         <ProjectCard
           src={snort}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Intrusion Detection System"
-          p="Set Up an IDS"
+          h3="IDS"
+          p="Set Up an Snort IDS"
         />
         <ProjectCard
           src={honeypot}
@@ -33,7 +33,7 @@ function Projects() {
           src={GuardianML}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="GuardianML"
-          p="Network Intrusion ML predictor"
+          p="Network IDS ML predictor"
         />
       </div>
     </section>
